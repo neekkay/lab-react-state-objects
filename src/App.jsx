@@ -13,15 +13,52 @@ function App() {
       <main>
         <aside>
           <table>
+          
            <tr>
-            <th>🍟</th><br rowSpan = '10'></br>
+            
+            <th>🍟</th><br></br>
             <th className="item-name">
            <span>Curly Fries</span> <br></br>
           <span> 🌶️🌶️🌶️🌶️🌶️</span></th><br></br>
           <th>$5</th>
-          
+          </tr>  
+          <tr>
+            <th>🥣</th><br></br>
+            <th className="item-name">
+           <span>Chicken Pickle Chili</span> <br></br>
+          <span> 🌶️🌶️🌶️🌶️</span></th><br></br>
+          <th>$4</th></tr>
 
-            </tr>  
+          <tr>
+
+          <th> 🍔 </th><br></br>
+            <th className="item-name">
+           <span>Cheese Steak with Beet Soup Sauce</span> <br></br>
+          <span> 🌶️🌶️🌶️</span></th><br></br>
+          <th>$4</th></tr>
+
+          <tr>
+          <th> 🥪 </th><br></br>
+            <th className="item-name">
+           <span>Oreo Fish Burger</span> <br></br>
+          <span> 🌶️🌶️</span></th><br></br>
+          <th>$12</th></tr>
+
+          <tr>
+          <th>🥚</th><br></br>
+            <th className="item-name">
+           <span>Peanut Butter Deviled Eggs</span> <br></br>
+          <span> 🌶️</span></th><br></br>
+          <th>$4</th></tr>
+
+          <tr>
+          <th>🥧</th><br></br>
+            <th className="item-name">
+           <span>Mountain Dew Cheesecake</span> <br></br>
+          <span> </span></th><br></br>
+          <th>$4</th></tr>
+
+          
           </table>
         </aside>
         <section>
