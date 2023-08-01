@@ -1,13 +1,28 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import items from "./data";
+import { useState } from "react";
+import ReactTable from "react-table";  
 
 function App() {
+  const [item, setItems] = useState(items);
+
   return (
     <div className="App">
       <Header />
       <main>
         <aside>
-          <table></table>
+          <table>
+           <tr>
+            <th>🍟</th><br rowSpan = '10'></br>
+            <th className="item-name">
+           <span>Curly Fries</span> <br></br>
+          <span> 🌶️🌶️🌶️🌶️🌶️</span></th><br></br>
+          <th>$5</th>
+          
+
+            </tr>  
+          </table>
         </aside>
         <section>
           <div>
